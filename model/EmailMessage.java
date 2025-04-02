@@ -13,7 +13,6 @@ public class EmailMessage {
     private Timestamp dateAdded;
 
 
-
     public int getId() {
         return id;
     }
