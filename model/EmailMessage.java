@@ -7,7 +7,7 @@ public class EmailMessage {
 
     private int id;
     private String phoneNumber;
-    private String message;
+    private String messageBody;
     private String url;
     private String email;
     private Timestamp dateAdded;
@@ -29,12 +29,12 @@ public class EmailMessage {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getMessage() {
-        return message;
+    public String getMessageBody() {
+        return messageBody;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setMessageBody(String messageBody) {
+        this.messageBody = messageBody;
     }
 
     public String getUrl() {
